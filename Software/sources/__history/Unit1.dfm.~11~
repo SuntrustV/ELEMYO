@@ -1,0 +1,176 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'ESP'
+  ClientHeight = 261
+  ClientWidth = 393
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnDestroy = FormDestroy
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 393
+    Height = 49
+    Align = alTop
+    TabOrder = 0
+    DesignSize = (
+      393
+      49)
+    object Bevel1: TBevel
+      Left = 4
+      Top = 4
+      Width = 384
+      Height = 42
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      Shape = bsFrame
+      ExplicitWidth = 608
+      ExplicitHeight = 106
+    end
+    object Image1: TImage
+      Left = 11
+      Top = 8
+      Width = 32
+      Height = 32
+      Cursor = crHandPoint
+      Hint = #1054#1090#1082#1088#1099#1090#1100'/'#1047#1072#1082#1088#1099#1090#1100' COM '#1087#1086#1088#1090
+      AutoSize = True
+      ParentShowHint = False
+      ShowHint = True
+      OnClick = Image1Click
+    end
+    object Image2: TImage
+      Left = 59
+      Top = 8
+      Width = 32
+      Height = 32
+      Cursor = crHandPoint
+      Hint = #1053#1072#1089#1090#1088#1086#1081#1082#1080' Com '#1087#1086#1088#1090#1072
+      AutoSize = True
+      ParentShowHint = False
+      ShowHint = True
+      OnClick = Image2Click
+    end
+    object Image3: TImage
+      Left = 104
+      Top = 8
+      Width = 32
+      Height = 32
+      Cursor = crHandPoint
+      Hint = #1057#1095#1080#1090#1072#1090#1100' '#1085#1072#1089#1090#1088#1086#1081#1082#1080' '#1091#1089#1090#1088#1086#1081#1089#1090#1074#1072
+      AutoSize = True
+      Enabled = False
+      ParentShowHint = False
+      ShowHint = True
+      OnClick = Image3Click
+    end
+    object Image4: TImage
+      Left = 152
+      Top = 8
+      Width = 32
+      Height = 32
+      Cursor = crHandPoint
+      Hint = #1057#1086#1093#1088#1072#1085#1080#1090#1100' '#1085#1072#1089#1090#1088#1086#1081#1082#1080
+      AutoSize = True
+      Enabled = False
+      ParentShowHint = False
+      ShowHint = True
+      OnClick = Image4Click
+    end
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 242
+    Width = 393
+    Height = 19
+    Panels = <
+      item
+        Width = 200
+      end>
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 49
+    Width = 393
+    Height = 193
+    Align = alClient
+    TabOrder = 2
+    DesignSize = (
+      393
+      193)
+    object Bevel2: TBevel
+      Left = 4
+      Top = 6
+      Width = 384
+      Height = 181
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      Shape = bsFrame
+      ExplicitWidth = 618
+      ExplicitHeight = 218
+    end
+    object GroupBox1: TGroupBox
+      Left = 11
+      Top = 16
+      Width = 370
+      Height = 55
+      Anchors = [akLeft, akTop, akRight]
+      Caption = #1053#1072#1089#1090#1088#1086#1081#1082#1080' '#1089#1077#1090#1080' WiFi'
+      TabOrder = 0
+      object Label1: TLabel
+        Left = 10
+        Top = 23
+        Width = 27
+        Height = 13
+        Caption = 'SSID'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Label2: TLabel
+        Left = 181
+        Top = 23
+        Width = 43
+        Height = 13
+        Caption = #1055#1072#1088#1086#1083#1100
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -11
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Edit1: TEdit
+        Left = 47
+        Top = 20
+        Width = 121
+        Height = 21
+        TabOrder = 0
+      end
+      object Edit2: TEdit
+        Left = 235
+        Top = 20
+        Width = 121
+        Height = 21
+        TabOrder = 1
+      end
+    end
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 272
+    Top = 8
+  end
+end

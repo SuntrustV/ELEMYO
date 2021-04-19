@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.025,=C:\Users\Sergey\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.308,=C:\Users\Sergey\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.190,D:\Projects\RFID\source\RFID.dproj=C:\Users\Sergey\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.302,D:\Projects\RFID\source\Unit1.dfm=C:\Users\Sergey\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.302,D:\Projects\RFID\source\Unit1.pas=C:\Users\Sergey\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.751,=D:\Projects\ESP8266\sources\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.105,=D:\Projects\RFID\source\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.666,C:\Projects\Delphi\ESP8266\sources\Unit3.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.629,=C:\Projects\Delphi\ESP8266\sources\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.215,D:\Projects\ESP8266\sources\RFID.dproj=D:\Projects\ESP8266\sources\Config.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
