@@ -1,14 +1,3 @@
-/*
-  ELEMYO --> ESP32
-  +        5V
-  -        GND
-  OUT1     pin 36
-  CS       pin 19
-  MOSI     pin 23
-  SCK      pin 18
-
-*/
-
 #include <EEPROM.h>
 #include <WiFi.h>
 #include <HTTPClient.h>
