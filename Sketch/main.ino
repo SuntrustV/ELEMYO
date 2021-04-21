@@ -135,9 +135,6 @@ void connect() {
 
   Serial.println("Params {" + arg1 + "," + arg2 + "}");
 
-  arg1 = "TP-LINK_29DAFC";
-  arg2 = "44459055";
-
   WiFi.begin(arg1.c_str(), arg2.c_str());
 
   //Serial.print("Connecting WiFi ");
